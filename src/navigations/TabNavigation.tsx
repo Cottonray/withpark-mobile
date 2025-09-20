@@ -9,7 +9,7 @@ const Tab = createBottomTabNavigator();
 
 const TabNavigation = () => {
   return (
-    <Tab.Navigator>
+    <Tab.Navigator initialRouteName={Routes.home}>
       <Tab.Screen
         name={Routes.home}
         component={HomeScreen}

@@ -24,7 +24,7 @@ const LoginScreen = () => {
         }}
       />
 
-      <Button
+      {/* <Button
         title={'네이버 로그인'}
         onPress={() => {
           // 네이버 로그인
@@ -33,7 +33,7 @@ const LoginScreen = () => {
             routes: [{ name: Routes.main }],
           });
         }}
-      />
+      /> */}
     </SafeAreaView>
   );
 };
